@@ -88,7 +88,7 @@ body {
     border-radius: 50%;
 }
 
-.container .controls{
+.container .controls {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,7 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
-.container .controls #play{
+.container .controls #play {
     background-color: #1db954;
     color: #fff;
     padding: 15px 17px 14px 18px;
@@ -110,11 +110,11 @@ body {
     transition: all 0.3s ease;
 }
 
-.container .controls #play:hover{
+.container .controls #play:hover {
     background: #189945;
 }
 
-.container .controls i{
+.container .controls i {
     padding: 30px 8px;
     font-size: 35px;
     cursor: pointer;
@@ -122,7 +122,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.container .controls i:hover{
+.container .controls i:hover {
     color: #fff;
 }
 
@@ -130,7 +130,55 @@ body {
     0% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(360deg);
+    }
+}
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    .container .song-info {
+        padding: 15px;
+        margin: 0 10px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .container .song-info .song-name {
+        font-size: 12px;
+        margin: 3px 0 10px;
+    }
+
+    .container .song-info .artist-name {
+        font-size: 16px;
+    }
+
+    .container .song-info .time {
+        font-size: 13px;
+        margin: 5px 0;
+    }
+
+    .container .disk .cover {
+        width: 100px;
+        height: 100px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .container .controls {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .container .controls #play {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .container .controls i {
+        padding: 15px;
+        font-size: 28px;
     }
 }
