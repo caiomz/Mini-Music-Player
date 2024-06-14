@@ -5,34 +5,58 @@ const songList = [{
     cover: "assets/1.jpg"
 },
 {
-    name: "Chuva de arroz",
+    name: "Chuva de Arroz",
     artist: "Luan Santana",
     src: "assets/2.mp3",
     cover: "assets/2.jpg"
 },
 {
-    name: "Alas",
-    artist: "Soy Luna",
+    name: "Te Vivo",
+    artist: "Luan Santana",
     src: "assets/3.mp3",
-    cover: "assets/3.jpg"
+    cover: "assets/1.jpg"
 },
 {
-    name: "Better in Stereo",
-    artist: "Liv and Maddie",
+    name: "Alas",
+    artist: "Soy Luna",
     src: "assets/4.mp3",
     cover: "assets/4.jpg"
 },
 {
-    name: "Perfect",
-    artist: "Ed Sheeran",
+    name: "Better in Stereo",
+    artist: "Liv and Maddie",
     src: "assets/5.mp3",
     cover: "assets/5.jpg"
 },
 {
-    name: "Hino do Corinthians",
-    artist: "Hino do Corinthians",
+    name: "Perfect",
+    artist: "Ed Sheeran",
     src: "assets/6.mp3",
     cover: "assets/6.jpg"
+},
+{
+    name: "Just The Way You Are",
+    artist: "Bruno Mars",
+    src: "assets/7.mp3",
+    cover: "assets/7.jpg"
+},
+{
+    name: "Tu és + Águas Purificadoras",
+    artist: "Fhop Music",
+    src: "assets/8.mp3",
+    cover: "assets/8.jpg"
+},
+{
+    name: "A Boa Parte",
+    artist: "Fhop Music",
+    src: "assets/9.mp3",
+    cover: "assets/8.jpg"
+},
+{
+    name: "Hino do Corinthians",
+    artist: "Hino do Corinthians",
+    src: "assets/15.mp3",
+    cover: "assets/15.jpg"
 }]
 
 const artistName = document.querySelector('.artist-name');
