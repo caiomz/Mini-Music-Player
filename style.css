@@ -135,3 +135,43 @@ body {
         transform: rotateZ(360deg);
     }
 }
+
+/* Estilos específicos para dispositivos móveis */
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .controls {
+        width: 100%;
+    }
+
+    .container .controls #play {
+        font-size: 20px;
+    }
+
+    .container .controls i {
+        font-size: 25px;
+    }
+
+    .container .disk .cover {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container .disk .circle {
+        width: 20px;
+        height: 20px;
+        left: 14%;
+        top: 22%;
+    }
+
+    .container .song-info {
+        margin: 0 5px;
+    }
+
+    .container .song-info .song-name {
+        font-size: 12px;
+    }
+}
