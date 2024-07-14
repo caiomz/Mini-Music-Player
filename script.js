@@ -53,6 +53,18 @@ const songList = [{
     cover: "assets/8.jpg"
 },
 {
+    name: "Yellow",
+    artist: "Coldplay",
+    src: "assets/10.mp3",
+    cover: "assets/10.jpg"
+},
+{
+    name: "Iris",
+    artist: "Goo Goo Dolls",
+    src: "assets/11.mp3",
+    cover: "assets/11.jpg"
+},
+{
     name: "Hino do Corinthians",
     artist: "Hino do Corinthians",
     src: "assets/15.mp3",
