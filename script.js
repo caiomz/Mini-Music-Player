@@ -1,74 +1,104 @@
 const songList = [{
-    name: "Tudo que você quiser",
-    artist: "Luan Santana",
+    name: "É Ele",
+    artist: "DROPS",
     src: "assets/1.mp3",
     cover: "assets/1.jpg"
 },
 {
-    name: "Chuva de Arroz",
+    name: "Tudo que você quiser",
     artist: "Luan Santana",
     src: "assets/2.mp3",
     cover: "assets/2.jpg"
 },
 {
-    name: "Te Vivo",
+    name: "Chuva de Arroz",
     artist: "Luan Santana",
     src: "assets/3.mp3",
-    cover: "assets/1.jpg"
+    cover: "assets/3.jpg"
+},
+{
+    name: "Te Vivo",
+    artist: "Luan Santana",
+    src: "assets/4.mp3",
+    cover: "assets/2.jpg"
 },
 {
     name: "Alas",
     artist: "Soy Luna",
-    src: "assets/4.mp3",
-    cover: "assets/4.jpg"
-},
-{
-    name: "Better in Stereo",
-    artist: "Liv and Maddie",
     src: "assets/5.mp3",
     cover: "assets/5.jpg"
 },
 {
-    name: "Perfect",
-    artist: "Ed Sheeran",
+    name: "Better in Stereo",
+    artist: "Liv and Maddie",
     src: "assets/6.mp3",
     cover: "assets/6.jpg"
 },
 {
-    name: "Just The Way You Are",
-    artist: "Bruno Mars",
+    name: "You Are the Music in Me",
+    artist: "High School Musical 2",
     src: "assets/7.mp3",
     cover: "assets/7.jpg"
 },
 {
-    name: "Tu és + Águas Purificadoras",
-    artist: "Fhop Music",
+    name: "Fugir agora",
+    artist: "Larissa Manoela",
     src: "assets/8.mp3",
     cover: "assets/8.jpg"
 },
 {
-    name: "A Boa Parte",
+    name: "Tu és + Águas Purificadoras",
     artist: "Fhop Music",
     src: "assets/9.mp3",
-    cover: "assets/8.jpg"
+    cover: "assets/10.jpg"
 },
 {
-    name: "Yellow",
-    artist: "Coldplay",
+    name: "A Boa Parte",
+    artist: "Fhop Music",
     src: "assets/10.mp3",
     cover: "assets/10.jpg"
 },
 {
-    name: "Iris",
-    artist: "Goo Goo Dolls",
+    name: "SE HOJE ME TOCA",
+    artist: "Fhop Music",
     src: "assets/11.mp3",
     cover: "assets/11.jpg"
 },
 {
-    name: "Hino do Corinthians",
-    artist: "Hino do Corinthians",
+    name: "Me Ama",
+    artist: "Diante do Trono",
+    src: "assets/12.mp3",
+    cover: "assets/12.jpg"
+},
+{
+    name: "Iris",
+    artist: "Goo Goo Dolls",
+    src: "assets/13.mp3",
+    cover: "assets/13.jpg"
+},
+{
+    name: "Yellow",
+    artist: "Coldplay",
+    src: "assets/14.mp3",
+    cover: "assets/14.jpg"
+},
+{
+    name: "Perfect",
+    artist: "Ed Sheeran",
     src: "assets/15.mp3",
     cover: "assets/15.jpg"
+},
+{
+    name: "Just The Way You Are",
+    artist: "Bruno Mars",
+    src: "assets/16.mp3",
+    cover: "assets/16.jpg"
+},
+{
+    name: "Hino do Corinthians",
+    artist: "Corinthians",
+    src: "assets/last.mp3",
+    cover: "assets/last.jpg"
 }]
 
 const artistName = document.querySelector('.artist-name');
