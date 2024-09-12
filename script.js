@@ -47,52 +47,58 @@ const songList = [{
     cover: "assets/8.jpg"
 },
 {
-    name: "Tu és + Águas Purificadoras",
+    name: "Bondade de Deus",
     artist: "Fhop Music",
     src: "assets/9.mp3",
-    cover: "assets/10.jpg"
+    cover: "assets/9.jpg"
+},
+{
+    name: "Tu és + Águas Purificadoras",
+    artist: "Fhop Music",
+    src: "assets/10.mp3",
+    cover: "assets/11.jpg"
 },
 {
     name: "A Boa Parte",
-    artist: "Fhop Music",
-    src: "assets/10.mp3",
-    cover: "assets/10.jpg"
-},
-{
-    name: "SE HOJE ME TOCA",
     artist: "Fhop Music",
     src: "assets/11.mp3",
     cover: "assets/11.jpg"
 },
 {
-    name: "Me Ama",
-    artist: "Diante do Trono",
+    name: "SE HOJE ME TOCA",
+    artist: "Fhop Music",
     src: "assets/12.mp3",
     cover: "assets/12.jpg"
 },
 {
-    name: "Iris",
-    artist: "Goo Goo Dolls",
+    name: "Me Ama",
+    artist: "Diante do Trono",
     src: "assets/13.mp3",
     cover: "assets/13.jpg"
 },
 {
-    name: "Yellow",
-    artist: "Coldplay",
+    name: "Iris",
+    artist: "Goo Goo Dolls",
     src: "assets/14.mp3",
     cover: "assets/14.jpg"
 },
 {
-    name: "Perfect",
-    artist: "Ed Sheeran",
+    name: "Yellow",
+    artist: "Coldplay",
     src: "assets/15.mp3",
     cover: "assets/15.jpg"
 },
 {
-    name: "Just The Way You Are",
-    artist: "Bruno Mars",
+    name: "Perfect",
+    artist: "Ed Sheeran",
     src: "assets/16.mp3",
     cover: "assets/16.jpg"
+},
+{
+    name: "Just The Way You Are",
+    artist: "Bruno Mars",
+    src: "assets/17.mp3",
+    cover: "assets/17.jpg"
 },
 {
     name: "Hino do Corinthians",
